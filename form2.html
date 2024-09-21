@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
     <meta name="description" content="Cadastro de dev">
+    
+    <!--Linkando todos os arquivos CSS externos-->
     <link rel="stylesheet" type="text/css" href="form2-base.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="form2-btn.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="form2-inputs.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-buttons.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-inputs-options.css" media="screen">
     <link rel="stylesheet" type="text/css" href="form2-select-options.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="form2-form.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-form-options.css" media="screen">
     <link rel="stylesheet" type="text/css" href="form2-radio-options.css" media="screen">
     <link rel="stylesheet" type="text/css" href="form2-checkbox-options.css" media="screen">
 </head>
 
 <body>
-    
-
     <section class="form-section">
+
+        <!--Título e subtítulo-->
         <div>
             <h1 id="titulo">Cadastro de <strong>DEV</strong></h1>
             <p id="subtitulo">Complete suas informações</p>
@@ -40,7 +42,7 @@
             </div>
 
             
-            <!--Opções radio-->
+            <!--Opções radio-options-->
             <div class="options-group">
                 <label for="opcoes">Você é um DEV:</label>
                 <br>
@@ -55,7 +57,7 @@
             </div>
             <br>
 
-            <!--Menu suspenso-->
+            <!--Opções select-options-->
             <div class="form-group">
                 <label for="posicao">Qual posição você esta?</label>
                 <select id="posicao" class="custom-select">
@@ -68,7 +70,7 @@
                 </select>
             </div>
             
-            
+            <!--Opções checkbox-options-->
             <div class="techs-group">
                 <label for="techs">Quais tecnologias você utiliza?</label>
                 <br>
@@ -93,18 +95,19 @@
             <br>
             <br>
 
+            <!--Field message textarea-->
             <div class="form-group">
                 <label for="message">Conte um pouco da sua experiência</label>
                 <textarea rows="6" id="textarea" name="textarea" placeholder="Escreva aqui"></textarea>
             </div>
             <br>
         
-            <!--Botao enviar submit-->
+            <!--Botao enviar-submit-->
             <div class="form-group">
                 <button type="submit" class="btn-submit">Enviar</button>
             </div>
 
-            
+            <!--Botao excluir-reset-->
             <div class="form-group"></div>
                 <button type="reset" class="btn-reset">Excluir</button>
             </div>
