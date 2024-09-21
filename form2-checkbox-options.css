@@ -1,7 +1,9 @@
+/*Checkbox-options TECHS*/
 .techs-group {
     font-size: 14px;
 }
 
+/*Checkbox-options alinhamento*/
 .techs-group input[type="checkbox"],
 .techs-group label {
     display: inline-block;

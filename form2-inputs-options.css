@@ -1,4 +1,4 @@
-/* Campos de texto */
+/* Campo de texto - Nome e E-mail */
 input[type="text"], input[type="email"] {
     width: 100%;
     padding: 6px;
@@ -7,6 +7,7 @@ input[type="text"], input[type="email"] {
     font-size: 14px;
 }
 
+/*Efeito FOCUS*/
 input[type="text"]:focus, input[type="email"]:focus {
     border-color: #4caf50; /* Altera a cor da borda ao focar */
     outline: none; /* Remove o contorno padrão */

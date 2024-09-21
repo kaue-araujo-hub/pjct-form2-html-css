@@ -1,3 +1,4 @@
+/*Form-options general*/
 .form-section {
     position: center;
     width: 400px;
@@ -14,7 +15,8 @@
 }
 
 
-/* Labels */
+
+/* Labels Nome e E-mail */
 label {
     display: block;
     margin-bottom: 5px;

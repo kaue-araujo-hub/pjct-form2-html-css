@@ -1,4 +1,4 @@
-/* Menu suspenso */
+/* Select-options - Menu suspenso - general*/
 .custom-select {
     width: 103%; /* Para ocupar todo o espaço disponível */
     padding: 6px; /* Adiciona espaçamento interno */
@@ -9,6 +9,7 @@
     cursor: pointer; /* Exibe o cursor de ponteiro quando passar o mouse */
 }
 
+/* Select-options - Menu suspenso - Efeito FOCUS*/
 .custom-select:focus {
     border-color: #4caf50; /* Altera a cor da borda ao focar */
     outline: none; /* Remove o contorno padrão */

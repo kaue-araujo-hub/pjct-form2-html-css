@@ -1,7 +1,9 @@
+/*Radio-options general*/
 .options-group {
     font-size: 14px;    
 }
 
+/*Radio-options alinhamento*/
 .options-group input[type="radio"],
 .options-group label {
     display: inline-block;

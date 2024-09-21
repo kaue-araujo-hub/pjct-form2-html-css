@@ -1,4 +1,4 @@
-/* Botao enviar */
+/* Botão verde: enviar-submit */
 button.btn-submit {
     background-color: #4caf50;
     color: white;
@@ -13,6 +13,9 @@ button.btn-submit:hover {
     background-color: #57c853;
 }
 
+
+
+/*Botão vermelho: excluir-reset*/
 button.btn-reset {
     background-color: #de1d1d;
     color: white;
@@ -22,6 +25,7 @@ button.btn-reset {
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
 }
+
 
 button.btn-reset:hover {
     background-color: #f53838;
