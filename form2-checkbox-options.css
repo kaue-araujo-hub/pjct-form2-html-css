@@ -1,0 +1,10 @@
+.techs-group {
+    font-size: 14px;
+}
+
+.techs-group input[type="checkbox"],
+.techs-group label {
+    display: inline-block;
+    margin-right: 3.8px;
+    vertical-align: middle;
+}

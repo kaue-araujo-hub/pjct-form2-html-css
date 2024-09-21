@@ -1,0 +1,25 @@
+.form-section {
+    position: center;
+    width: 400px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    line-height: 20px;
+    font-size: 14px;
+}
+

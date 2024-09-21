@@ -1,0 +1,13 @@
+/* Campos de texto */
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #4caf50; /* Altera a cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}  

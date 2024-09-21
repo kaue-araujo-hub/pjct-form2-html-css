@@ -1,0 +1,16 @@
+/* Menu suspenso */
+.custom-select {
+    width: 103%; /* Para ocupar todo o espaço disponível */
+    padding: 6px; /* Adiciona espaçamento interno */
+    font-size: 14px; /* Ajusta o tamanho da fonte */
+    border-radius: 5px; /* Deixa os cantos arredondados */
+    border: 1px solid #ccc; /* Define uma borda cinza clara */
+    background-color: #f9f9f9; /* Cor de fundo */
+    cursor: pointer; /* Exibe o cursor de ponteiro quando passar o mouse */
+}
+
+.custom-select:focus {
+    border-color: #4caf50; /* Altera a cor da borda ao focar */
+    outline: none; /* Remove o contorno padrão */
+}
+

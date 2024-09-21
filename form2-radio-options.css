@@ -1,0 +1,12 @@
+.options-group {
+    font-size: 14px;    
+}
+
+.options-group input[type="radio"],
+.options-group label {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <meta name="description" content="Cadastro de dev">
+    <link rel="stylesheet" type="text/css" href="form2-base.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-btn.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-inputs.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-select-options.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-form.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-radio-options.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="form2-checkbox-options.css" media="screen">
+</head>
+
+<body>
+    
+
+    <section class="form-section">
+        <div>
+            <h1 id="titulo">Cadastro de <strong>DEV</strong></h1>
+            <p id="subtitulo">Complete suas informações</p>
+        </div>
+        <br>
+        <br>
+
+        <form id="cadastro-usuario">
+            <!--Campo de nome-->
+            <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="idNome" name="nome" placeholder="Digite seu nome completo" required>
+            </div>
+
+            <!--Campo de e-mail-->
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="idEmail" name="email" placeholder="Digite seu e-mail" required>
+            </div>
+
+            
+            <!--Opções radio-->
+            <div class="options-group">
+                <label for="opcoes">Você é um DEV:</label>
+                <br>
+                <input type="radio" id="opcao1" name="opcoes" value="1" required>
+                <label for="frontend">Front-end</label>
+
+                <input type="radio" id="opcao1" name="opcoes" value="2" required>
+                <label for="fullstack">Fullstack</label>
+
+                <input type="radio" id="opcao1" name="opcoes" value="3" required>
+                <label for="backend">Back-end</label>
+            </div>
+            <br>
+
+            <!--Menu suspenso-->
+            <div class="form-group">
+                <label for="posicao">Qual posição você esta?</label>
+                <select id="posicao" class="custom-select">
+                    <option selected disabled value="">Selecione</option>
+                    <option>Estudante</option>
+                    <option>Junior</option>
+                    <option>Pleno</option>
+                    <option>Senior</option>
+                    <option>Especialista</option>
+                </select>
+            </div>
+            
+            
+            <div class="techs-group">
+                <label for="techs">Quais tecnologias você utiliza?</label>
+                <br>
+                <input type="checkbox" id="opcao1" name="techs" value="1" required>
+                <label for="html">HTML</label>
+
+                <input type="checkbox" id="opcao2" name="techs" value="2" required>
+                <label for="css">CSS</label>
+
+                <input type="checkbox" id="opcao3" name="techs" value="3" required>
+                <label for="js">JavaScript</label>
+
+                <input type="checkbox" id="opcao4" name="techs" value="4" required>
+                <label for="php">PHP</label>
+
+                <input type="checkbox" id="opcao5" name="techs" value="5" required>
+                <label for="java">Java</label>
+
+                <input type="checkbox" id="opcao6" name="techs" value="6" required>
+                <label for="c#">C#</label>
+            </div>
+            <br>
+            <br>
+
+            <div class="form-group">
+                <label for="message">Conte um pouco da sua experiência</label>
+                <textarea rows="6" id="textarea" name="textarea" placeholder="Escreva aqui"></textarea>
+            </div>
+            <br>
+        
+            <!--Botao enviar submit-->
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Enviar</button>
+            </div>
+
+            
+            <div class="form-group"></div>
+                <button type="reset" class="btn-reset">Excluir</button>
+            </div>
+        </form>
+    </section>  
+</body>
+
+</html>

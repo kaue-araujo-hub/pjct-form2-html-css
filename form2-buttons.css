@@ -1,0 +1,28 @@
+/* Botao enviar */
+button.btn-submit {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-submit:hover {
+    background-color: #57c853;
+}
+
+button.btn-reset {
+    background-color: #de1d1d;
+    color: white;
+    padding: 10px 60px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button.btn-reset:hover {
+    background-color: #f53838;
+}
